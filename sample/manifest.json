@@ -4,7 +4,7 @@
   "manifest_version": 2,
   "description": "Sample Chrome Extension",
   "content_scripts": [{
-    "matches": ["https://{subdomain}.cybozu.com/k/{appID}"],
+    "matches": ["https://{subdomain}.cybozu.com/k/{appID}/*"],
     "js": [
       "content.js"
     ]
