@@ -6,7 +6,7 @@
   "content_scripts": [{
     "matches": ["https://{subdomain}.cybozu.com/k/*"],
     "js": [
-      "js/content.js"
+      "content.js"
     ]
   }]
 }
